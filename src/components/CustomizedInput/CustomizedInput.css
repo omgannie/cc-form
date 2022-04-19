@@ -1,0 +1,22 @@
+.Input {
+  padding: 0.5rem;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  align-self: flex-start;
+  font-size: 0.9rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  min-width: inherit;
+  border-radius: 5px;
+}
+
+input:active {
+  color: darkgreen;
+}
