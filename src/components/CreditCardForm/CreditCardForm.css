@@ -1,0 +1,20 @@
+.row {
+  min-width: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+.exit {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Success: {
+  position: absolute;
+  z-index: 99999;
+}
+
+.Error: {
+  z-index: 99999;
+}
